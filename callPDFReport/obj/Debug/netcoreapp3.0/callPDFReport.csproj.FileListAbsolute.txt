@@ -1,0 +1,17 @@
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/appsettings.Development.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/appsettings.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/callPDFReport.deps.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/callPDFReport.runtimeconfig.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/callPDFReport.runtimeconfig.dev.json
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/callPDFReport.dll
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/bin/Debug/netcoreapp3.0/callPDFReport.pdb
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/staticwebassets/callPDFReport.StaticWebAssets.Manifest.cache
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/staticwebassets/callPDFReport.StaticWebAssets.xml
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.MvcApplicationPartsAssemblyInfo.cache
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.AssemblyInfoInputs.cache
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.AssemblyInfo.cs
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.RazorTargetAssemblyInfo.cache
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.dll
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.pdb
+/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/obj/Debug/netcoreapp3.0/callPDFReport.csprojAssemblyReference.cache

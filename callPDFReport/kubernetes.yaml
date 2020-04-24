@@ -1,0 +1,47 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: callpdfreport-service
+  labels:
+    app: callpdfreport
+spec:
+  selector:
+    app: callpdfreport
+  type: NodePort
+  ports:
+  - port: 8088
+    nodePort: 32637
+
+#  clusterIP: None
+#  ports:
+#    - port: 8088
+#      name: rest
+#    - port: 32259
+#      name: inter-node
+#      targetPort: 32259
+
+#  ports:
+#  - port: 30146
+#    protocol: TCP
+#    targetPort: 8088
+
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: callpdfreport-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: callpdfreport
+    spec:
+      containers:
+      - name: callpdfreport
+        image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/callpdfreport:latest
+        ports:
+        - containerPort: 8088
+      imagePullSecrets:
+      # enter the name of the secret you created
+      - name: ocirsecret
