@@ -9,10 +9,16 @@ COPY *.csproj .
 RUN dotnet restore
 
 # Copy local code to the container image.
-COPY . .
+COPY . ./
 
 # Build a release artifact.
 RUN dotnet publish -c Release -o out
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
+
+WORKDIR /app
+
+COPY --from=build-env /app/out .
 
 # Make sure the app binds to port 8088
 ENV ASPNETCORE_URLS http://*:8088
