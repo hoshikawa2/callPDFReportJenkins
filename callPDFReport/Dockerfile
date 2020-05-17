@@ -1,6 +1,6 @@
 ﻿# Use Microsoft's official .NET image.
 # https://hub.docker.com/r/microsoft/dotnet
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 
 # Install production dependencies.
 # Copy csproj and restore as distinct layers.

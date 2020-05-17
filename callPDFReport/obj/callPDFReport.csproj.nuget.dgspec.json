@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cristianohoshikawa/Projects/callPDFReportJenkins/callPDFReport/callPDFReport.csproj": {}
+    "/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/callPDFReportJenkins/callPDFReport/callPDFReport.csproj": {}
   },
   "projects": {
-    "/Users/cristianohoshikawa/Projects/callPDFReportJenkins/callPDFReport/callPDFReport.csproj": {
+    "/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/callPDFReportJenkins/callPDFReport/callPDFReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cristianohoshikawa/Projects/callPDFReportJenkins/callPDFReport/callPDFReport.csproj",
+        "projectUniqueName": "/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/callPDFReportJenkins/callPDFReport/callPDFReport.csproj",
         "projectName": "callPDFReport",
-        "projectPath": "/Users/cristianohoshikawa/Projects/callPDFReportJenkins/callPDFReport/callPDFReport.csproj",
+        "projectPath": "/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/callPDFReportJenkins/callPDFReport/callPDFReport.csproj",
         "packagesPath": "/Users/cristianohoshikawa/.nuget/packages/",
-        "outputPath": "/Users/cristianohoshikawa/Projects/callPDFReportJenkins/callPDFReport/obj/",
+        "outputPath": "/Users/cristianohoshikawa/Projects/callPDFReport/callPDFReport/callPDFReportJenkins/callPDFReport/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
