@@ -24,4 +24,4 @@ COPY --from=build-env /app/out .
 ENV ASPNETCORE_URLS http://*:8088
 
 # Run the web service on container startup.
-ENTRYPOINT ["dotnet", "callpdfreport.dll"]
+ENTRYPOINT ["dotnet", "callpdfreportjenkins.dll"]
