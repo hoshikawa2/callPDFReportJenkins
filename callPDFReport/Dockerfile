@@ -14,7 +14,7 @@ COPY . ./
 # Build a release artifact.
 RUN dotnet publish -c Release -o out
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
+FROM microsoft/aspnetcore
 
 WORKDIR /app
 
