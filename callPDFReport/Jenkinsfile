@@ -14,7 +14,7 @@ pipeline {
 /*
         stage('SonarQube') {
             steps {
-                sh "mvn sonar:sonar   -Dsonar.projectKey=runHTML   -Dsonar.host.url=http://sonarqube:9000   -Dsonar.login=5a6e33f58cfb3a2577dd32e2098666e9a5e6e2a0"
+                sh "mvn sonar:sonar  -Dsonar.projectKey=runHTML   -Dsonar.host.url=http://sonarqube:9000   -Dsonar.login=5a6e33f58cfb3a2577dd32e2098666e9a5e6e2a0"
             }
         }
         stage('Build') { 
