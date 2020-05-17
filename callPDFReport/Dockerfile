@@ -1,11 +1,11 @@
 ﻿# Use Microsoft's official .NET image.
 # https://hub.docker.com/r/microsoft/dotnet
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
 
 # Install production dependencies.
 # Copy csproj and restore as distinct layers.
 WORKDIR /app
-COPY *.csproj .
+COPY *.csproj ./
 RUN dotnet restore
 
 # Copy local code to the container image.
@@ -14,7 +14,7 @@ COPY . ./
 # Build a release artifact.
 RUN dotnet publish -c Release -o out
 
-FROM microsoft/dotnet:2.2-aspnetcore-runtime
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
 
 WORKDIR /app
 
@@ -24,4 +24,4 @@ COPY --from=build-env /app/out .
 ENV ASPNETCORE_URLS http://*:8088
 
 # Run the web service on container startup.
-CMD ["dotnet", "out/callPDFReport.dll"]
+ENTRYPOINT ["dotnet", "callpdfreport.dll"]
