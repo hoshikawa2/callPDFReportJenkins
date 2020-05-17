@@ -36,7 +36,7 @@ pipeline {
                       ])
                     /* app = docker.build(registry + "/runhtml:latest") */
                     dir('./callPDFReport') {
-                        sh 'docker build -t  iad.ocir.io/' + params.DOCKER_REPO + '/callpdfreportjenkins:latest .'
+                        sh 'docker build -t iad.ocir.io/' + params.DOCKER_REPO + '/callpdfreportjenkins:latest .'
                     }
                 }
             }
