@@ -1,6 +1,6 @@
 ﻿# Use Microsoft's official .NET image.
 # https://hub.docker.com/r/microsoft/dotnet
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build
 
 # Install production dependencies.
 # Copy csproj and restore as distinct layers.
@@ -14,7 +14,7 @@ COPY . ./
 # Build a release artifact.
 RUN dotnet publish -c Release -o out
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1-buster-slim AS base
 
 WORKDIR /app
 
