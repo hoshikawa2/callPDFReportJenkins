@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: callpdfreport
-        image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/callpdfreportjenkins:latest
+        image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/jenkins/callpdfreportjenkins:latest
         ports:
         - containerPort: 8088
       imagePullSecrets:
