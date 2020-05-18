@@ -20,7 +20,7 @@ WORKDIR /app
 
 COPY --from=build-env /app/out .
 
-# Make sure the app binds to port 8088
+# Make sure the app binds to port 8088 
 ENV ASPNETCORE_URLS http://*:8088
 
 # Run the web service on container startup.
