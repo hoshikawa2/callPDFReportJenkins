@@ -36,8 +36,6 @@ namespace callPDFReport.Controllers
             httpRequest.ContentType = "application/octet-stream; charset=UTF-8";
             httpRequest.AllowAutoRedirect = false;
 
-            Console.WriteLine("ok");
-
             HttpWebResponse response = (HttpWebResponse)httpRequest.GetResponse();
 
             if (response.StatusCode == HttpStatusCode.OK)
