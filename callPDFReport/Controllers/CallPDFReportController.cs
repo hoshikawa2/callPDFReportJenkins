@@ -28,7 +28,7 @@ namespace callPDFReport.Controllers
         [HttpGet]
         public ActionResult Get(String sku, String nome, String lista, String preco)
         {
-            //Chamada local - teste 1
+            //Chamada local - teste 2
             //HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://150.136.184.232:8080?url=http://150.136.184.232:32333/showhtml?sku=" + sku + "&nome=" + nome + "&lista=" + lista + "&preco=" + preco);
             HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://tecnospeed-service:8080?url=http://runhtml-service:8080/showhtml?sku=" + sku + "&nome=" + nome + "&lista=" + lista + "&preco=" + preco);
 
