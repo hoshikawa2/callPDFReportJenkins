@@ -32,6 +32,9 @@ metadata:
   name: callpdfreport-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: callpdfreport  
   template:
     metadata:
       labels:
